@@ -10,7 +10,7 @@ option cc_generic_services = true;
 message ResultCode{
     int32 errcode = 1;
     bytes errmsg = 2;
-}
+} 
 
 //常用的有  数据 列表 映射表
 //定义登录请求消息类型 name pwd
