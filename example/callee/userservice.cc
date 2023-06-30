@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 #include "user.pb.h" 
+#include "mprpcapplication.h"
+#include "rpcprovider.h"
 
 
 /*
@@ -33,7 +35,7 @@ public:
 
         // 做本地业务
         bool login_result = Login(name,pwd);
-
+ 
         // 把响应写入 包括错误码 错误消息 返回值
         fixbug::ResultCode* code = response->mutable_result();
         code->set_errcode(0);
@@ -43,16 +45,18 @@ public:
         // 执行回调操作  执行响应对象的序列化和网络发送（都是由框架来完成的）
         done->Run();
     }
-
-    
-
-
-
 };
 
-int main(){
-    UserService us;
-    us.Login("xxx","xxx");
+int main(int argc,char** argv){
+    // 调用框架的初始化操作
+    MprpcApplication::Init(argc,argv);
+
+    // provider是一个rpc网络服务对象。把UserService对象发布到rpc节点上
+    RpcProvider provider;
+    provider.NotifyService(new UserService());
+
+    // 启动一个rpc服务器发布节点。Run以后，进程进入阻塞状态，等待远程rpc调用请求
+    provider.Run();
 
     return 0;
 }
