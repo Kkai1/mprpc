@@ -41,7 +41,7 @@ void MprpcConfig::LoadConfigFile(const char* config_file){
             //解析配置项不合法
             continue;
         }
-
+ 
         //解析配置项存在
         int begin = src_buf.find_first_not_of(' ',idx+1);
         int end = src_buf.find_last_not_of(' ');
@@ -51,7 +51,7 @@ void MprpcConfig::LoadConfigFile(const char* config_file){
 
         if(begin != -1 && end != -1){
             key = src_buf.substr(0,idx);
-            value = src_buf.substr(begin,end);
+            value = src_buf.substr(begin,end-begin+1);
         }else{
             continue;
         }
