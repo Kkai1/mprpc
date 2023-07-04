@@ -12,9 +12,16 @@ include_directories(${PROJECT_SOURCE_DIR}/src/include)
 include_directories(${PROJECT_SOURCE_DIR}/example)
 # 设置项目库文件搜索路径 -L
 link_directories(${PROJECT_SOURCE_DIR}/lib)
+link_directories(/usr/local/lib)
 
+
+# src包含了mrpc框架所有的代码
 add_subdirectory(src)
+# example包含了mrpc框架使用的示例代码
 add_subdirectory(example)
+
+
+
 
 
 

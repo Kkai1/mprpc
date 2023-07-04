@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/kai/mrpc/mrpc/build/src",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -Dmrpc_EXPORTS -I/home/kai/mrpc/mrpc/src/include -I/home/kai/mrpc/mrpc/example  -g -fPIC   -o CMakeFiles/mrpc.dir/mprpcapplication.cc.o -c /home/kai/mrpc/mrpc/src/mprpcapplication.cc",
+  "file": "/home/kai/mrpc/mrpc/src/mprpcapplication.cc"
+},
+{
+  "directory": "/home/kai/mrpc/mrpc/build/src",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -Dmrpc_EXPORTS -I/home/kai/mrpc/mrpc/src/include -I/home/kai/mrpc/mrpc/example  -g -fPIC   -o CMakeFiles/mrpc.dir/mprpcconfig.cc.o -c /home/kai/mrpc/mrpc/src/mprpcconfig.cc",
+  "file": "/home/kai/mrpc/mrpc/src/mprpcconfig.cc"
+},
+{
+  "directory": "/home/kai/mrpc/mrpc/build/src",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -Dmrpc_EXPORTS -I/home/kai/mrpc/mrpc/src/include -I/home/kai/mrpc/mrpc/example  -g -fPIC   -o CMakeFiles/mrpc.dir/rpcprovider.cc.o -c /home/kai/mrpc/mrpc/src/rpcprovider.cc",
+  "file": "/home/kai/mrpc/mrpc/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/kai/mrpc/mrpc/build/example/callee",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/kai/mrpc/mrpc/src/include -I/home/kai/mrpc/mrpc/example  -g   -o CMakeFiles/provider.dir/userservice.cc.o -c /home/kai/mrpc/mrpc/example/callee/userservice.cc",
+  "file": "/home/kai/mrpc/mrpc/example/callee/userservice.cc"
+},
+{
+  "directory": "/home/kai/mrpc/mrpc/build/example/callee",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/kai/mrpc/mrpc/src/include -I/home/kai/mrpc/mrpc/example  -g   -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/kai/mrpc/mrpc/example/user.pb.cc",
+  "file": "/home/kai/mrpc/mrpc/example/user.pb.cc"
+}
+]

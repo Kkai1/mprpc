@@ -1,5 +1,7 @@
 #pragma once
 
+#include "mprpcconfig.h"
+
 //mprpc框架的基础类,负责框架的的初始化
 class MprpcApplication{
 public:
@@ -7,7 +9,9 @@ public:
     static MprpcApplication& GetInstance();
    
 private:
-    MprpcApplication();
+    static MprpcConfig m_config;
+
+    MprpcApplication(){}
     // 删除拷贝构造函数
     MprpcApplication(const MprpcApplication&) = delete;
     MprpcApplication(MprpcApplication&&) = delete;
