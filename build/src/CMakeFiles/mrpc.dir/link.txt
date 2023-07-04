@@ -1,1 +1,2 @@
-/usr/bin/x86_64-linux-gnu-g++-7 -fPIC -g  -shared -Wl,-soname,libmrpc.so -o ../../lib/libmrpc.so CMakeFiles/mrpc.dir/mprpcapplication.cc.o CMakeFiles/mrpc.dir/mprpcconfig.cc.o CMakeFiles/mrpc.dir/rpcprovider.cc.o  -L/home/kai/mrpc/mrpc/lib  -L/usr/local/lib 
+/usr/bin/ar qc ../../lib/libmrpc.a  CMakeFiles/mrpc.dir/mprpcapplication.cc.o CMakeFiles/mrpc.dir/mprpcconfig.cc.o CMakeFiles/mrpc.dir/rpcprovider.cc.o
+/usr/bin/ranlib ../../lib/libmrpc.a

@@ -19,6 +19,16 @@ string
 ../src/include/rpcprovider.h
 google/protobuf/service.h
 ../src/include/google/protobuf/service.h
+memory
+-
+muduo/net/TcpServer.h
+-
+muduo/net/EventLoop.h
+-
+muduo/net/InetAddress.h
+-
+muduo/net/TcpConnection.h
+-
 
 /home/kai/mrpc/mrpc/src/mprpcapplication.cc
 mprpcapplication.h
@@ -39,4 +49,10 @@ string
 /home/kai/mrpc/mrpc/src/rpcprovider.cc
 rpcprovider.h
 /home/kai/mrpc/mrpc/src/rpcprovider.h
+string
+-
+mprpcapplication.h
+/home/kai/mrpc/mrpc/src/mprpcapplication.h
+functional
+-
 

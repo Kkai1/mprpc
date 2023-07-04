@@ -8,6 +8,8 @@ src/CMakeFiles/mrpc.dir/mprpcapplication.cc.o: ../src/mprpcapplication.cc
 src/CMakeFiles/mrpc.dir/mprpcconfig.cc.o: ../src/include/mprpcconfig.h
 src/CMakeFiles/mrpc.dir/mprpcconfig.cc.o: ../src/mprpcconfig.cc
 
+src/CMakeFiles/mrpc.dir/rpcprovider.cc.o: ../src/include/mprpcapplication.h
+src/CMakeFiles/mrpc.dir/rpcprovider.cc.o: ../src/include/mprpcconfig.h
 src/CMakeFiles/mrpc.dir/rpcprovider.cc.o: ../src/include/rpcprovider.h
 src/CMakeFiles/mrpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc
 

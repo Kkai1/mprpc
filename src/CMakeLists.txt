@@ -3,4 +3,7 @@
 set(SRC_LIST mprpcapplication.cc mprpcconfig.cc rpcprovider.cc)
 
 # 将SRC_LIST中的源文件生成一个动态库
-add_library(mrpc SHARED ${SRC_LIST})
+# add_library(mrpc SHARED ${SRC_LIST})
+add_library(mrpc ${SRC_LIST})
+# 顺序不能改变
+target_link_libraries(mrpc muduo_net muduo_base pthread)

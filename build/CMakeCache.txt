@@ -186,8 +186,8 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 //Value Computed by CMake
 mrpc_BINARY_DIR:STATIC=/home/kai/mrpc/mrpc/build
 
-//Dependencies for target
-mrpc_LIB_DEPENDS:STATIC=
+//Dependencies for the target
+mrpc_LIB_DEPENDS:STATIC=general;muduo_net;general;muduo_base;general;pthread;
 
 //Value Computed by CMake
 mrpc_SOURCE_DIR:STATIC=/home/kai/mrpc/mrpc

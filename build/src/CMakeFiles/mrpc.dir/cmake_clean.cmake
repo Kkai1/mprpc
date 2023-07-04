@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mrpc.dir/mprpcconfig.cc.o"
   "CMakeFiles/mrpc.dir/rpcprovider.cc.o"
   "../../lib/libmrpc.pdb"
-  "../../lib/libmrpc.so"
+  "../../lib/libmrpc.a"
 )
 
 # Per-language clean rules from dependency scanning.
