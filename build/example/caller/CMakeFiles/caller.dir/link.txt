@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-7  -g  -rdynamic CMakeFiles/caller.dir/calluserservice.cc.o CMakeFiles/caller.dir/__/user.pb.cc.o  -o ../../../bin/caller  -L/home/kai/mrpc/mrpc/lib  -L/usr/local/lib -Wl,-rpath,/home/kai/mrpc/mrpc/lib:/usr/local/lib ../../../lib/libmrpc.a -lprotobuf -lmuduo_net -lmuduo_base -lpthread 

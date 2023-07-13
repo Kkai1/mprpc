@@ -34,6 +34,7 @@ void RpcProvider::Run(){
     // 组合了TcpServer
     std::unique_ptr<muduo::net::TcpServer> m_tcpserverPtr;
 
+    // 读取配置文件rpcserver的信息
     std::string ip = MprpcApplication::GetInstance().GetConfig().Load("rpcserver_ip");
     uint16_t port = atoi(MprpcApplication::GetInstance().GetConfig().Load("rpcserver_port").c_str());
     muduo::net::InetAddress address(ip, port);
@@ -88,19 +89,19 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn,
     recv_buf.copy((char*)&header_size, 4, 0);
     
     // 根据header_size读取数据头的原始字符流，反序列化数据，得到rpc请求的详细信息
-    std::string rpc_head_str = recv_buf.substr(4, header_size);
+    std::string rpc_header_str = recv_buf.substr(4, header_size);
     mprpc::RpcHeader rpcHeader;
     std::string service_name;
     std::string method_name;
     uint32_t args_size;
-    if(rpcHeader.ParseFromString(rpc_head_str)){
+    if(rpcHeader.ParseFromString(rpc_header_str)){
         // 数据反序列化成功
         service_name = rpcHeader.service_name();
         method_name = rpcHeader.method_name();
         args_size = rpcHeader.args_size();
     }else{
         // 数据反序列化失败
-        std::cout << "rpc_head_str" << rpc_head_str << " parse error" << std::endl;
+        std::cout << "rpc_header_str" << rpc_header_str << " parse error" << std::endl;
         return;
     }
 
@@ -109,11 +110,11 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn,
 
     // 打印调试信息
     std::cout << "===========================================" << std::endl;
-    std::cout << "header_size" << header_size << std::endl;
-    std::cout << "rpc_head_str" << rpc_head_str << std::endl;
-    std::cout << "service_name" << service_name << std::endl;
-    std::cout << "method_name" << method_name << std::endl;
-    std::cout << "args_str" << args_str << std::endl;
+    std::cout << "header_size: " << header_size << std::endl;
+    std::cout << "rpc_header_str:  " << rpc_header_str << std::endl;
+    std::cout << "service_name: " << service_name << std::endl;
+    std::cout << "method_name: " << method_name << std::endl;
+    std::cout << "args_str: " << args_str << std::endl;
     std::cout << "===========================================" << std::endl;
 
     // 获取service对象和method对象

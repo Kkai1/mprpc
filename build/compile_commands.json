@@ -20,6 +20,11 @@
   "file": "/home/kai/mrpc/mrpc/src/rpcheader.pb.cc"
 },
 {
+  "directory": "/home/kai/mrpc/mrpc/build/src",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/kai/mrpc/mrpc/src/include -I/home/kai/mrpc/mrpc/example  -g   -o CMakeFiles/mrpc.dir/mprpcchannel.cc.o -c /home/kai/mrpc/mrpc/src/mprpcchannel.cc",
+  "file": "/home/kai/mrpc/mrpc/src/mprpcchannel.cc"
+},
+{
   "directory": "/home/kai/mrpc/mrpc/build/example/callee",
   "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/kai/mrpc/mrpc/src/include -I/home/kai/mrpc/mrpc/example  -g   -o CMakeFiles/provider.dir/userservice.cc.o -c /home/kai/mrpc/mrpc/example/callee/userservice.cc",
   "file": "/home/kai/mrpc/mrpc/example/callee/userservice.cc"
@@ -27,6 +32,16 @@
 {
   "directory": "/home/kai/mrpc/mrpc/build/example/callee",
   "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/kai/mrpc/mrpc/src/include -I/home/kai/mrpc/mrpc/example  -g   -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/kai/mrpc/mrpc/example/user.pb.cc",
+  "file": "/home/kai/mrpc/mrpc/example/user.pb.cc"
+},
+{
+  "directory": "/home/kai/mrpc/mrpc/build/example/caller",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/kai/mrpc/mrpc/src/include -I/home/kai/mrpc/mrpc/example  -g   -o CMakeFiles/consumer.dir/calluserservice.cc.o -c /home/kai/mrpc/mrpc/example/caller/calluserservice.cc",
+  "file": "/home/kai/mrpc/mrpc/example/caller/calluserservice.cc"
+},
+{
+  "directory": "/home/kai/mrpc/mrpc/build/example/caller",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/kai/mrpc/mrpc/src/include -I/home/kai/mrpc/mrpc/example  -g   -o CMakeFiles/consumer.dir/__/user.pb.cc.o -c /home/kai/mrpc/mrpc/example/user.pb.cc",
   "file": "/home/kai/mrpc/mrpc/example/user.pb.cc"
 }
 ]
