@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../example/user.pb.h
+../example/friend.pb.h
 limits
 -
 string
@@ -96,19 +96,19 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/kai/mrpc/mrpc/example/caller/calluserservice.cc
+/home/kai/mrpc/mrpc/example/caller/callfriendservice.cc
 iostream
 -
 mprpcapplication.h
 /home/kai/mrpc/mrpc/example/caller/mprpcapplication.h
-user.pb.h
-/home/kai/mrpc/mrpc/example/caller/user.pb.h
+friend.pb.h
+/home/kai/mrpc/mrpc/example/caller/friend.pb.h
 mprpcchannel.h
 /home/kai/mrpc/mrpc/example/caller/mprpcchannel.h
 
-/home/kai/mrpc/mrpc/example/user.pb.cc
-user.pb.h
-/home/kai/mrpc/mrpc/example/user.pb.h
+/home/kai/mrpc/mrpc/example/friend.pb.cc
+friend.pb.h
+/home/kai/mrpc/mrpc/example/friend.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -130,7 +130,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/kai/mrpc/mrpc/example/user.pb.h
+/home/kai/mrpc/mrpc/example/friend.pb.h
 limits
 -
 string

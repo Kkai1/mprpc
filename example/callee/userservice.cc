@@ -19,6 +19,12 @@ public:
         std::cout << "name:" << name << "pwd:" << pwd << std::endl;
         return true;
     }
+
+    bool Register(uint32_t id, std::string name, std::string pwd){
+        std::cout << "doing local service: Register" << std::endl;
+        std::cout << "id:" << id << "name:" << name << "pwd:" << pwd << std::endl;
+        return true;
+    }
     /*
         如果远端想要调用的方法，通过request匹配到相应的方法，我们在该方法下，填写相应的响应，然后做出回调发回响应。
         1. caller   ===>    Login(LoginRequest) => muduo => callee
@@ -45,6 +51,29 @@ public:
         // 执行回调操作  执行响应对象的序列化和网络发送（都是由框架来完成的）
         done->Run();
     }
+
+    void Register(::google::protobuf::RpcController* controller,
+                       const ::fixbug::RegisterRequest* request,
+                       ::fixbug::RegisterResponse* response,
+                       ::google::protobuf::Closure* done){
+        // 框架给业务上报了请求参数LoginRequest，应用获取响应数据做本地业务    
+        uint32_t id = request->id();
+        std::string name = request->name();
+        std::string pwd = request->pwd();
+
+        //做本地业务
+        bool register_result = Register(id, name, pwd);
+
+        // 把响应写入 包括错误码 错误消息 返回值
+        fixbug::ResultCode *code = response->mutable_result();
+        code->set_errcode(0);
+        code->set_errmsg("");
+        response->set_success(register_result);
+
+        // 执行回调操作  执行响应对象的序列化和网络发送（都是由框架来完成的）
+        done->Run();
+    }
+
 };
 
 int main(int argc,char** argv){
