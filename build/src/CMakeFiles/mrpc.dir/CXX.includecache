@@ -6,9 +6,29 @@
 
 #IncludeRegexTransform: 
 
+../src/include/lockqueue.h
+queue
+-
+thread
+-
+mutex
+-
+condition_variable
+-
+
+../src/include/logger.h
+lockqueue.h
+../src/include/lockqueue.h
+string
+-
+
 ../src/include/mprpcapplication.h
 mprpcconfig.h
 ../src/include/mprpcconfig.h
+mprpcchannel.h
+../src/include/mprpcchannel.h
+mprpccontroller.h
+../src/include/mprpccontroller.h
 
 ../src/include/mprpcchannel.h
 google/protobuf/service.h
@@ -22,6 +42,12 @@ rpcheader.pb.h
 
 ../src/include/mprpcconfig.h
 unordered_map
+-
+string
+-
+
+../src/include/mprpccontroller.h
+google/protobuf/service.h
 -
 string
 -
@@ -82,6 +108,12 @@ google/protobuf/descriptor.h
 unordered_map
 -
 
+/home/kai/mrpc/mrpc/src/logger.cc
+logger.h
+/home/kai/mrpc/mrpc/src/logger.h
+iostream
+-
+
 /home/kai/mrpc/mrpc/src/mprpcapplication.cc
 mprpcapplication.h
 /home/kai/mrpc/mrpc/src/mprpcapplication.h
@@ -109,6 +141,8 @@ arpa/inet.h
 -
 unistd.h
 -
+mprpccontroller.h
+/home/kai/mrpc/mrpc/src/mprpccontroller.h
 
 /home/kai/mrpc/mrpc/src/mprpcconfig.cc
 mprpcconfig.h
@@ -117,6 +151,10 @@ iostream
 -
 string
 -
+
+/home/kai/mrpc/mrpc/src/mprpccontroller.cc
+mprpccontroller.h
+/home/kai/mrpc/mrpc/src/mprpccontroller.h
 
 /home/kai/mrpc/mrpc/src/rpcheader.pb.cc
 rpcheader.pb.h
@@ -149,4 +187,6 @@ mprpcapplication.h
 /home/kai/mrpc/mrpc/src/mprpcapplication.h
 rpcheader.pb.h
 /home/kai/mrpc/mrpc/src/rpcheader.pb.h
+logger.h
+/home/kai/mrpc/mrpc/src/logger.h
 

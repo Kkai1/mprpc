@@ -1,7 +1,7 @@
 #include <iostream>
 #include "mprpcapplication.h"
 #include "user.pb.h"
-#include "mprpcchannel.h"
+
 
 int main(int argc, char **argv){
     // 整个程序启动以后，想使用mprpc来享受rpc服务调用，一定需要先调用框架的初始化函数（只初始化一次）

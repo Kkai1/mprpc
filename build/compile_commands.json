@@ -25,6 +25,16 @@
   "file": "/home/kai/mrpc/mrpc/src/mprpcchannel.cc"
 },
 {
+  "directory": "/home/kai/mrpc/mrpc/build/src",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/kai/mrpc/mrpc/src/include -I/home/kai/mrpc/mrpc/example  -g   -o CMakeFiles/mrpc.dir/mprpccontroller.cc.o -c /home/kai/mrpc/mrpc/src/mprpccontroller.cc",
+  "file": "/home/kai/mrpc/mrpc/src/mprpccontroller.cc"
+},
+{
+  "directory": "/home/kai/mrpc/mrpc/build/src",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/kai/mrpc/mrpc/src/include -I/home/kai/mrpc/mrpc/example  -g   -o CMakeFiles/mrpc.dir/logger.cc.o -c /home/kai/mrpc/mrpc/src/logger.cc",
+  "file": "/home/kai/mrpc/mrpc/src/logger.cc"
+},
+{
   "directory": "/home/kai/mrpc/mrpc/build/example/callee",
   "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/kai/mrpc/mrpc/src/include -I/home/kai/mrpc/mrpc/example  -g   -o CMakeFiles/provider.dir/friendservice.cc.o -c /home/kai/mrpc/mrpc/example/callee/friendservice.cc",
   "file": "/home/kai/mrpc/mrpc/example/callee/friendservice.cc"

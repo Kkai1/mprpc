@@ -45,6 +45,10 @@ google/protobuf/port_undef.inc
 ../src/include/mprpcapplication.h
 mprpcconfig.h
 ../src/include/mprpcconfig.h
+mprpcchannel.h
+../src/include/mprpcchannel.h
+mprpccontroller.h
+../src/include/mprpccontroller.h
 
 ../src/include/mprpcchannel.h
 google/protobuf/service.h
@@ -58,6 +62,12 @@ rpcheader.pb.h
 
 ../src/include/mprpcconfig.h
 unordered_map
+-
+string
+-
+
+../src/include/mprpccontroller.h
+google/protobuf/service.h
 -
 string
 -
@@ -103,8 +113,6 @@ mprpcapplication.h
 /home/kai/mrpc/mrpc/example/caller/mprpcapplication.h
 friend.pb.h
 /home/kai/mrpc/mrpc/example/caller/friend.pb.h
-mprpcchannel.h
-/home/kai/mrpc/mrpc/example/caller/mprpcchannel.h
 
 /home/kai/mrpc/mrpc/example/friend.pb.cc
 friend.pb.h

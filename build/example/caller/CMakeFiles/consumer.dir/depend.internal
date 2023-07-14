@@ -9,5 +9,6 @@ example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o
  ../src/include/mprpcapplication.h
  ../src/include/mprpcchannel.h
  ../src/include/mprpcconfig.h
+ ../src/include/mprpccontroller.h
  ../src/include/rpcheader.pb.h
  /home/kai/mrpc/mrpc/example/caller/callfriendservice.cc

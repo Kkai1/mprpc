@@ -6,7 +6,12 @@ example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o
  /home/kai/mrpc/mrpc/example/friend.pb.h
 example/callee/CMakeFiles/provider.dir/friendservice.cc.o
  ../example/friend.pb.h
+ ../src/include/lockqueue.h
+ ../src/include/logger.h
  ../src/include/mprpcapplication.h
+ ../src/include/mprpcchannel.h
  ../src/include/mprpcconfig.h
+ ../src/include/mprpccontroller.h
+ ../src/include/rpcheader.pb.h
  ../src/include/rpcprovider.h
  /home/kai/mrpc/mrpc/example/callee/friendservice.cc

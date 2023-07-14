@@ -177,13 +177,63 @@ src/CMakeFiles/mrpc.dir/mprpcchannel.cc.o.provides: src/CMakeFiles/mrpc.dir/mprp
 src/CMakeFiles/mrpc.dir/mprpcchannel.cc.o.provides.build: src/CMakeFiles/mrpc.dir/mprpcchannel.cc.o
 
 
+src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o: src/CMakeFiles/mrpc.dir/flags.make
+src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o: ../src/mprpccontroller.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kai/mrpc/mrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o"
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/mprpccontroller.cc.o -c /home/kai/mrpc/mrpc/src/mprpccontroller.cc
+
+src/CMakeFiles/mrpc.dir/mprpccontroller.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mrpc.dir/mprpccontroller.cc.i"
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/mprpccontroller.cc > CMakeFiles/mrpc.dir/mprpccontroller.cc.i
+
+src/CMakeFiles/mrpc.dir/mprpccontroller.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mrpc.dir/mprpccontroller.cc.s"
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/mprpccontroller.cc -o CMakeFiles/mrpc.dir/mprpccontroller.cc.s
+
+src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o.requires:
+
+.PHONY : src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o.requires
+
+src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o.provides: src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o.requires
+	$(MAKE) -f src/CMakeFiles/mrpc.dir/build.make src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o.provides.build
+.PHONY : src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o.provides
+
+src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o.provides.build: src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o
+
+
+src/CMakeFiles/mrpc.dir/logger.cc.o: src/CMakeFiles/mrpc.dir/flags.make
+src/CMakeFiles/mrpc.dir/logger.cc.o: ../src/logger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kai/mrpc/mrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/mrpc.dir/logger.cc.o"
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/logger.cc.o -c /home/kai/mrpc/mrpc/src/logger.cc
+
+src/CMakeFiles/mrpc.dir/logger.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mrpc.dir/logger.cc.i"
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/logger.cc > CMakeFiles/mrpc.dir/logger.cc.i
+
+src/CMakeFiles/mrpc.dir/logger.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mrpc.dir/logger.cc.s"
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/logger.cc -o CMakeFiles/mrpc.dir/logger.cc.s
+
+src/CMakeFiles/mrpc.dir/logger.cc.o.requires:
+
+.PHONY : src/CMakeFiles/mrpc.dir/logger.cc.o.requires
+
+src/CMakeFiles/mrpc.dir/logger.cc.o.provides: src/CMakeFiles/mrpc.dir/logger.cc.o.requires
+	$(MAKE) -f src/CMakeFiles/mrpc.dir/build.make src/CMakeFiles/mrpc.dir/logger.cc.o.provides.build
+.PHONY : src/CMakeFiles/mrpc.dir/logger.cc.o.provides
+
+src/CMakeFiles/mrpc.dir/logger.cc.o.provides.build: src/CMakeFiles/mrpc.dir/logger.cc.o
+
+
 # Object files for target mrpc
 mrpc_OBJECTS = \
 "CMakeFiles/mrpc.dir/mprpcapplication.cc.o" \
 "CMakeFiles/mrpc.dir/mprpcconfig.cc.o" \
 "CMakeFiles/mrpc.dir/rpcprovider.cc.o" \
 "CMakeFiles/mrpc.dir/rpcheader.pb.cc.o" \
-"CMakeFiles/mrpc.dir/mprpcchannel.cc.o"
+"CMakeFiles/mrpc.dir/mprpcchannel.cc.o" \
+"CMakeFiles/mrpc.dir/mprpccontroller.cc.o" \
+"CMakeFiles/mrpc.dir/logger.cc.o"
 
 # External object files for target mrpc
 mrpc_EXTERNAL_OBJECTS =
@@ -193,9 +243,11 @@ mrpc_EXTERNAL_OBJECTS =
 ../lib/libmrpc.a: src/CMakeFiles/mrpc.dir/rpcprovider.cc.o
 ../lib/libmrpc.a: src/CMakeFiles/mrpc.dir/rpcheader.pb.cc.o
 ../lib/libmrpc.a: src/CMakeFiles/mrpc.dir/mprpcchannel.cc.o
+../lib/libmrpc.a: src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o
+../lib/libmrpc.a: src/CMakeFiles/mrpc.dir/logger.cc.o
 ../lib/libmrpc.a: src/CMakeFiles/mrpc.dir/build.make
 ../lib/libmrpc.a: src/CMakeFiles/mrpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kai/mrpc/mrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ../../lib/libmrpc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kai/mrpc/mrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library ../../lib/libmrpc.a"
 	cd /home/kai/mrpc/mrpc/build/src && $(CMAKE_COMMAND) -P CMakeFiles/mrpc.dir/cmake_clean_target.cmake
 	cd /home/kai/mrpc/mrpc/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mrpc.dir/link.txt --verbose=$(VERBOSE)
 
@@ -209,6 +261,8 @@ src/CMakeFiles/mrpc.dir/requires: src/CMakeFiles/mrpc.dir/mprpcconfig.cc.o.requi
 src/CMakeFiles/mrpc.dir/requires: src/CMakeFiles/mrpc.dir/rpcprovider.cc.o.requires
 src/CMakeFiles/mrpc.dir/requires: src/CMakeFiles/mrpc.dir/rpcheader.pb.cc.o.requires
 src/CMakeFiles/mrpc.dir/requires: src/CMakeFiles/mrpc.dir/mprpcchannel.cc.o.requires
+src/CMakeFiles/mrpc.dir/requires: src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o.requires
+src/CMakeFiles/mrpc.dir/requires: src/CMakeFiles/mrpc.dir/logger.cc.o.requires
 
 .PHONY : src/CMakeFiles/mrpc.dir/requires
 
