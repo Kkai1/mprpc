@@ -108,6 +108,14 @@ google/protobuf/descriptor.h
 unordered_map
 -
 
+../src/include/zookeeperutil.h
+semaphore.h
+-
+zookeeper/zookeeper.h
+-
+string
+-
+
 /home/kai/mrpc/mrpc/src/logger.cc
 logger.h
 /home/kai/mrpc/mrpc/src/logger.h
@@ -143,6 +151,8 @@ unistd.h
 -
 mprpccontroller.h
 /home/kai/mrpc/mrpc/src/mprpccontroller.h
+zookeeperutil.h
+/home/kai/mrpc/mrpc/src/zookeeperutil.h
 
 /home/kai/mrpc/mrpc/src/mprpcconfig.cc
 mprpcconfig.h
@@ -189,4 +199,16 @@ rpcheader.pb.h
 /home/kai/mrpc/mrpc/src/rpcheader.pb.h
 logger.h
 /home/kai/mrpc/mrpc/src/logger.h
+zookeeperutil.h
+/home/kai/mrpc/mrpc/src/zookeeperutil.h
+
+/home/kai/mrpc/mrpc/src/zookeeperutil.cc
+zookeeperutil.h
+/home/kai/mrpc/mrpc/src/zookeeperutil.h
+mprpcapplication.h
+/home/kai/mrpc/mrpc/src/mprpcapplication.h
+iostream
+-
+semaphore.h
+-
 

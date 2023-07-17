@@ -8,6 +8,7 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 #include "mprpccontroller.h"
+#include "zookeeperutil.h"
 
 
 /*
@@ -75,8 +76,28 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
     }
 
     // 读取配置文件rpcserver的信息
-    std::string ip = MprpcApplication::GetInstance().GetConfig().Load("rpcserver_ip");
-    uint16_t port = atoi(MprpcApplication::GetInstance().GetConfig().Load("rpcserver_port").c_str());
+    // std::string ip = MprpcApplication::GetInstance().GetConfig().Load("rpcserver_ip");
+    // uint16_t port = atoi(MprpcApplication::GetInstance().GetConfig().Load("rpcserver_port").c_str());
+
+    // 读取zk中心对应服务的ip地址与port
+    ZkClient zkCli;
+    zkCli.Start();
+    // UserServiceRpc/Login
+    std::string method_path = "/" + service_name + "/" + method_name;
+    std::string host_data = zkCli.GetData(method_path.c_str());
+    if(host_data == ""){
+        controller->SetFailed(method_path + "is not exist!");
+        return;
+    }
+    // host_data存储格式   ip:port  127.0.0.1:8000
+    int idx = host_data.find(':');
+    if(idx == -1){
+        controller->SetFailed(method_path + "address is invalid!");
+        return;
+    }
+    std::string ip = host_data.substr(0, idx);
+    uint16_t port = atoi(host_data.substr(idx+1, host_data.size()-idx).c_str());
+
 
     // 定义需要连接的ip地址与端口号
     struct sockaddr_in server_addr;

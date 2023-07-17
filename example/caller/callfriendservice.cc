@@ -1,6 +1,7 @@
 #include <iostream>
 #include "mprpcapplication.h"
-#include "friend.pb.h" 
+#include "friend.pb.h"
+
 
 
 int main(int argc, char** argv){
