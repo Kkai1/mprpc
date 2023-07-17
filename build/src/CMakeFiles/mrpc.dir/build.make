@@ -60,15 +60,15 @@ include src/CMakeFiles/mrpc.dir/flags.make
 src/CMakeFiles/mrpc.dir/mprpcapplication.cc.o: src/CMakeFiles/mrpc.dir/flags.make
 src/CMakeFiles/mrpc.dir/mprpcapplication.cc.o: ../src/mprpcapplication.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kai/mrpc/mrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/mrpc.dir/mprpcapplication.cc.o"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/mprpcapplication.cc.o -c /home/kai/mrpc/mrpc/src/mprpcapplication.cc
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/mprpcapplication.cc.o -c /home/kai/mrpc/mrpc/src/mprpcapplication.cc
 
 src/CMakeFiles/mrpc.dir/mprpcapplication.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mrpc.dir/mprpcapplication.cc.i"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/mprpcapplication.cc > CMakeFiles/mrpc.dir/mprpcapplication.cc.i
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/mprpcapplication.cc > CMakeFiles/mrpc.dir/mprpcapplication.cc.i
 
 src/CMakeFiles/mrpc.dir/mprpcapplication.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mrpc.dir/mprpcapplication.cc.s"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/mprpcapplication.cc -o CMakeFiles/mrpc.dir/mprpcapplication.cc.s
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/mprpcapplication.cc -o CMakeFiles/mrpc.dir/mprpcapplication.cc.s
 
 src/CMakeFiles/mrpc.dir/mprpcapplication.cc.o.requires:
 
@@ -84,15 +84,15 @@ src/CMakeFiles/mrpc.dir/mprpcapplication.cc.o.provides.build: src/CMakeFiles/mrp
 src/CMakeFiles/mrpc.dir/mprpcconfig.cc.o: src/CMakeFiles/mrpc.dir/flags.make
 src/CMakeFiles/mrpc.dir/mprpcconfig.cc.o: ../src/mprpcconfig.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kai/mrpc/mrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/mrpc.dir/mprpcconfig.cc.o"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/mprpcconfig.cc.o -c /home/kai/mrpc/mrpc/src/mprpcconfig.cc
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/mprpcconfig.cc.o -c /home/kai/mrpc/mrpc/src/mprpcconfig.cc
 
 src/CMakeFiles/mrpc.dir/mprpcconfig.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mrpc.dir/mprpcconfig.cc.i"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/mprpcconfig.cc > CMakeFiles/mrpc.dir/mprpcconfig.cc.i
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/mprpcconfig.cc > CMakeFiles/mrpc.dir/mprpcconfig.cc.i
 
 src/CMakeFiles/mrpc.dir/mprpcconfig.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mrpc.dir/mprpcconfig.cc.s"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/mprpcconfig.cc -o CMakeFiles/mrpc.dir/mprpcconfig.cc.s
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/mprpcconfig.cc -o CMakeFiles/mrpc.dir/mprpcconfig.cc.s
 
 src/CMakeFiles/mrpc.dir/mprpcconfig.cc.o.requires:
 
@@ -108,15 +108,15 @@ src/CMakeFiles/mrpc.dir/mprpcconfig.cc.o.provides.build: src/CMakeFiles/mrpc.dir
 src/CMakeFiles/mrpc.dir/rpcprovider.cc.o: src/CMakeFiles/mrpc.dir/flags.make
 src/CMakeFiles/mrpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kai/mrpc/mrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/mrpc.dir/rpcprovider.cc.o"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/rpcprovider.cc.o -c /home/kai/mrpc/mrpc/src/rpcprovider.cc
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/rpcprovider.cc.o -c /home/kai/mrpc/mrpc/src/rpcprovider.cc
 
 src/CMakeFiles/mrpc.dir/rpcprovider.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mrpc.dir/rpcprovider.cc.i"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/rpcprovider.cc > CMakeFiles/mrpc.dir/rpcprovider.cc.i
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/rpcprovider.cc > CMakeFiles/mrpc.dir/rpcprovider.cc.i
 
 src/CMakeFiles/mrpc.dir/rpcprovider.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mrpc.dir/rpcprovider.cc.s"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/rpcprovider.cc -o CMakeFiles/mrpc.dir/rpcprovider.cc.s
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/rpcprovider.cc -o CMakeFiles/mrpc.dir/rpcprovider.cc.s
 
 src/CMakeFiles/mrpc.dir/rpcprovider.cc.o.requires:
 
@@ -132,15 +132,15 @@ src/CMakeFiles/mrpc.dir/rpcprovider.cc.o.provides.build: src/CMakeFiles/mrpc.dir
 src/CMakeFiles/mrpc.dir/rpcheader.pb.cc.o: src/CMakeFiles/mrpc.dir/flags.make
 src/CMakeFiles/mrpc.dir/rpcheader.pb.cc.o: ../src/rpcheader.pb.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kai/mrpc/mrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/mrpc.dir/rpcheader.pb.cc.o"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/rpcheader.pb.cc.o -c /home/kai/mrpc/mrpc/src/rpcheader.pb.cc
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/rpcheader.pb.cc.o -c /home/kai/mrpc/mrpc/src/rpcheader.pb.cc
 
 src/CMakeFiles/mrpc.dir/rpcheader.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mrpc.dir/rpcheader.pb.cc.i"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/rpcheader.pb.cc > CMakeFiles/mrpc.dir/rpcheader.pb.cc.i
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/rpcheader.pb.cc > CMakeFiles/mrpc.dir/rpcheader.pb.cc.i
 
 src/CMakeFiles/mrpc.dir/rpcheader.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mrpc.dir/rpcheader.pb.cc.s"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/rpcheader.pb.cc -o CMakeFiles/mrpc.dir/rpcheader.pb.cc.s
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/rpcheader.pb.cc -o CMakeFiles/mrpc.dir/rpcheader.pb.cc.s
 
 src/CMakeFiles/mrpc.dir/rpcheader.pb.cc.o.requires:
 
@@ -156,15 +156,15 @@ src/CMakeFiles/mrpc.dir/rpcheader.pb.cc.o.provides.build: src/CMakeFiles/mrpc.di
 src/CMakeFiles/mrpc.dir/mprpcchannel.cc.o: src/CMakeFiles/mrpc.dir/flags.make
 src/CMakeFiles/mrpc.dir/mprpcchannel.cc.o: ../src/mprpcchannel.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kai/mrpc/mrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/mrpc.dir/mprpcchannel.cc.o"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/mprpcchannel.cc.o -c /home/kai/mrpc/mrpc/src/mprpcchannel.cc
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/mprpcchannel.cc.o -c /home/kai/mrpc/mrpc/src/mprpcchannel.cc
 
 src/CMakeFiles/mrpc.dir/mprpcchannel.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mrpc.dir/mprpcchannel.cc.i"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/mprpcchannel.cc > CMakeFiles/mrpc.dir/mprpcchannel.cc.i
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/mprpcchannel.cc > CMakeFiles/mrpc.dir/mprpcchannel.cc.i
 
 src/CMakeFiles/mrpc.dir/mprpcchannel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mrpc.dir/mprpcchannel.cc.s"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/mprpcchannel.cc -o CMakeFiles/mrpc.dir/mprpcchannel.cc.s
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/mprpcchannel.cc -o CMakeFiles/mrpc.dir/mprpcchannel.cc.s
 
 src/CMakeFiles/mrpc.dir/mprpcchannel.cc.o.requires:
 
@@ -180,15 +180,15 @@ src/CMakeFiles/mrpc.dir/mprpcchannel.cc.o.provides.build: src/CMakeFiles/mrpc.di
 src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o: src/CMakeFiles/mrpc.dir/flags.make
 src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o: ../src/mprpccontroller.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kai/mrpc/mrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/mprpccontroller.cc.o -c /home/kai/mrpc/mrpc/src/mprpccontroller.cc
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/mprpccontroller.cc.o -c /home/kai/mrpc/mrpc/src/mprpccontroller.cc
 
 src/CMakeFiles/mrpc.dir/mprpccontroller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mrpc.dir/mprpccontroller.cc.i"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/mprpccontroller.cc > CMakeFiles/mrpc.dir/mprpccontroller.cc.i
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/mprpccontroller.cc > CMakeFiles/mrpc.dir/mprpccontroller.cc.i
 
 src/CMakeFiles/mrpc.dir/mprpccontroller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mrpc.dir/mprpccontroller.cc.s"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/mprpccontroller.cc -o CMakeFiles/mrpc.dir/mprpccontroller.cc.s
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/mprpccontroller.cc -o CMakeFiles/mrpc.dir/mprpccontroller.cc.s
 
 src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o.requires:
 
@@ -204,15 +204,15 @@ src/CMakeFiles/mrpc.dir/mprpccontroller.cc.o.provides.build: src/CMakeFiles/mrpc
 src/CMakeFiles/mrpc.dir/logger.cc.o: src/CMakeFiles/mrpc.dir/flags.make
 src/CMakeFiles/mrpc.dir/logger.cc.o: ../src/logger.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kai/mrpc/mrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/mrpc.dir/logger.cc.o"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/logger.cc.o -c /home/kai/mrpc/mrpc/src/logger.cc
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/logger.cc.o -c /home/kai/mrpc/mrpc/src/logger.cc
 
 src/CMakeFiles/mrpc.dir/logger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mrpc.dir/logger.cc.i"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/logger.cc > CMakeFiles/mrpc.dir/logger.cc.i
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/logger.cc > CMakeFiles/mrpc.dir/logger.cc.i
 
 src/CMakeFiles/mrpc.dir/logger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mrpc.dir/logger.cc.s"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/logger.cc -o CMakeFiles/mrpc.dir/logger.cc.s
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/logger.cc -o CMakeFiles/mrpc.dir/logger.cc.s
 
 src/CMakeFiles/mrpc.dir/logger.cc.o.requires:
 
@@ -228,15 +228,15 @@ src/CMakeFiles/mrpc.dir/logger.cc.o.provides.build: src/CMakeFiles/mrpc.dir/logg
 src/CMakeFiles/mrpc.dir/zookeeperutil.cc.o: src/CMakeFiles/mrpc.dir/flags.make
 src/CMakeFiles/mrpc.dir/zookeeperutil.cc.o: ../src/zookeeperutil.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kai/mrpc/mrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/mrpc.dir/zookeeperutil.cc.o"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/zookeeperutil.cc.o -c /home/kai/mrpc/mrpc/src/zookeeperutil.cc
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrpc.dir/zookeeperutil.cc.o -c /home/kai/mrpc/mrpc/src/zookeeperutil.cc
 
 src/CMakeFiles/mrpc.dir/zookeeperutil.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mrpc.dir/zookeeperutil.cc.i"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/zookeeperutil.cc > CMakeFiles/mrpc.dir/zookeeperutil.cc.i
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kai/mrpc/mrpc/src/zookeeperutil.cc > CMakeFiles/mrpc.dir/zookeeperutil.cc.i
 
 src/CMakeFiles/mrpc.dir/zookeeperutil.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mrpc.dir/zookeeperutil.cc.s"
-	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/zookeeperutil.cc -o CMakeFiles/mrpc.dir/zookeeperutil.cc.s
+	cd /home/kai/mrpc/mrpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kai/mrpc/mrpc/src/zookeeperutil.cc -o CMakeFiles/mrpc.dir/zookeeperutil.cc.s
 
 src/CMakeFiles/mrpc.dir/zookeeperutil.cc.o.requires:
 
